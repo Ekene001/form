@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <form action="" name="formfill" onsubmit="return validation()">
+                <h2>Login </h2>
+                <p id="result"></p>
+                
+                <div class="input-box">
+                    <box-icon name='envelope' ></box-icon>
+                    <input type="email" name="Email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <box-icon name='lock-alt' ></box-icon>
+                    <input type="password" name="Password" placeholder="password">
+                </div>
+                
+                <div class="button">
+                    <input type="submit" class="btn" onclick="validation()" Value="Login">
+                </div>
+                <div class="group">
+                    <span>
+                        <a href="">Forget-password</a>
+                    </span>
+                    <span>
+                        <a href="">login</a>
+                    </span>
+                </div>
+            </form>
+           
+        </div>
+       
+    </div>
+   
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="style.js"></script>
+</body>
+</html>
